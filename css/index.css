@@ -273,14 +273,6 @@ nav h1 {
   color: #212529;
   text-decoration: none;
 }
-header {
-  padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
-  text-align: flex-start;
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-}
 .button {
   display: block;
   background-color: #17A2B8;
