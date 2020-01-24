@@ -12,3 +12,14 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+
+// Escaping - media queries
+@mobile: "(max-width: 500px)";
+
+h2 {
+    font-size: 3.2rem;
+
+    @media (max-width: 500px){
+        font-size: 1.25rem;
+    }
+}
