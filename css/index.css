@@ -250,6 +250,21 @@ nav h1 {
   width: 30%;
   margin-bottom: 30px;
 }
+header {
+  padding-bottom: 30px;
+  border-bottom: 2px dashed #C0C0C0;
+  text-align: flex-start;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+header h2 {
+  padding-top: 30px;
+  width: 100%;
+}
+.pcontainer {
+  width: 100%;
+}
 .funbusimg {
   display: flex;
   width: 100%;
