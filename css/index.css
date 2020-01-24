@@ -168,6 +168,31 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+li a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  font-size: 1.6rem;
+  padding: 47px;
+  align-items: left;
+}
+li a:hover {
+  color: #D39486;
+}
+nav {
+  display: flex;
+  width: 100%;
+  border-bottom: 2px dashed silver;
+  margin: 0 auto;
+}
+nav h1 {
+  padding: 35px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +249,26 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.funbusimg {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.button {
+  display: block;
+  background-color: #17A2B8;
+  width: 200px;
+  height: 40px;
+  border-radius: 11px;
+  font-size: 18px;
+  text-align: center;
+  padding: 5%;
+  color: #FFFFFF;
+}
+.button-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
